@@ -49,17 +49,22 @@ A proposta do projeto é ajudar quem quer adotar uma criança ou quem quer visit
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [NodeJS](https://node.com.br)
 
 ### Dependências
 
-  - [Axios](https://github.com/axios/axios)
-  - [React Icons](https://react-icons.github.io/react-icons/)
-  - [React Router DOM](https://github.com/ReactTraining/react-router#readme)
-  - [React Spring](https://www.react-spring.io/)
-  - :nail_care: [Styled Components](https://styled-components.com/)
-  - [NodeJS](https://node.com.br)
+  - [cors](https://github.com/expressjs/cors)
+  - [express](https://expressjs.com/pt-br/)
+  - [express async errors](https://github.com/davidbanham/express-async-errors)
+  
+  - [Multer](https://github.com/expressjs/multer)
+  - [Typeorm](https://github.com/typeorm/typeorm)
+  - [Yup](https://github.com/jquense/yup)
+  
+### Banco de Dados
+
+  - [SQLite](https://www.sqlite.org/index.html)
 	
 ### Padronização de código
 
