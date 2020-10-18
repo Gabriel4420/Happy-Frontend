@@ -7,6 +7,8 @@ export default class Orphanage{
   @Column()
   name:string;
   @Column()
+  whatsapp:string;
+  @Column()
   latitude:number;
   @Column()
   longitude:number;

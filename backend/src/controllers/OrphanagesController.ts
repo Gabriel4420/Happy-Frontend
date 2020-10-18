@@ -31,6 +31,7 @@ export default {
   async create(req: Request, res: Response) {
     const {
       name,
+      whatsapp,
       latitude,
       longitude,
       about,
@@ -53,6 +54,7 @@ export default {
 
     const data = {
       name,
+      whatsapp,
       latitude,
       longitude,
       about,
@@ -64,6 +66,7 @@ export default {
 
     const schema = Yup.object().shape({
       name: Yup.string().required(),
+      whatsapp: Yup.string().required(),
       latitude: Yup.number().required(),
       longitude: Yup.number().required(),
       about: Yup.string().required().max(300),
